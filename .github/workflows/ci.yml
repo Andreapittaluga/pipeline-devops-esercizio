@@ -19,5 +19,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run fake test
-        run: echo "✔️ Test passed"
+      - name: Run tests
+        run: npm test
+
